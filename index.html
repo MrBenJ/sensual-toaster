@@ -15,14 +15,16 @@
     </style>
   </head>
   <body>
-    <div class="body">
-      <div class="box"></div>
+    <div id="mood_lighting" class="body">
+      <img class="toaster" src="/static/toaster.png">
+      <img id="magic" class="toast" src="/static/toast.png">
     </div>
+    <iframe class="music"  width="560" height="315" src="https://www.youtube.com/embed/rjlSiASsUIs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </body>
   <script src="/static/script.js"></script>
   <script>
     // IMPORTANT: Make sure This script tag is the very last <script> tag in this file!
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
     ':35729/livereload.js?snipver=1"></' + 'script>')
-    </script> 
+    </script>
 </html>
