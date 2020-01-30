@@ -21,7 +21,7 @@
   top: 50%;
   left: 50%;
   z-index: 5;
-  transition: all 90s; }
+  transition: top 90s; }
   .toast.sensualize {
     top: 20%; }
 

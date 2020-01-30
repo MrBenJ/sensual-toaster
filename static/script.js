@@ -1,7 +1,9 @@
 var toast = document.getElementById('magic');
 var body = document.getElementById('mood_lighting');
 
-toast.classList.add('sensualize');
+setTimeout(function() {
+  toast.classList.add('sensualize');
+}, 0);
 
 var COLORS = [
   'dodgerblue',
