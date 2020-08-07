@@ -25,6 +25,18 @@
   .toast.sensualize {
     top: 20%; }
 
+button {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 5vw;
+  border: 0;
+  background-color: violet;
+  padding: 25px; }
+  button.hidden {
+    display: none; }
+
 .music {
   position: absolute;
   right: 9999px; }
